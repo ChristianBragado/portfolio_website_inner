@@ -25,7 +25,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
     const navigation = useNavigate();
 
     const handleClick = () => {
-        navigation(`/projects/${route}`);
+        navigation(`//${route}`);
     };
 
     const onMouseEnter = () => {
