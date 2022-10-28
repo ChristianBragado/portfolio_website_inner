@@ -10,71 +10,64 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Hover</h1>
+                        <h1>Apple</h1>
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href={'https://hover.gg/'}
+                            href={'https://www.apple.com/'}
                         >
-                            <h4>www.hover.gg</h4>
+                            <h4>www.apple.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Frontend Engineer</h3>
+                        <h3>Senior Technician</h3>
                         <b>
-                            <p>Summer 2020 - Fall 2021</p>
+                            <p>March 2014 - Fall 2021</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    Targeted towards online content creators and streamers
-                    looking to build a brand, Hover is the home of over 150K
-                    users. Written in Typescript using React, React-Native,
-                    Framer, Express, and Redux.
+                    more info coming soon more info coming soon more
+                    info coming soon more more info coming soon more
+                    info coming soon more info coming soon more info
                 </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            Architected and engineered the vertical scrolling
-                            discover player which, at its daily peak, was
-                            responsible for generating over 600,000 views across
-                            20,000 active users.
+                            more info coming soon more info coming soon more
+                            info coming soon more more info coming soon more
+                            info coming soon more info coming soon more info
                         </p>
                     </li>
                     <li>
                         <p>
-                            Designed and implemented multiple features to
-                            increase app usability and user experience while
-                            ensuring the quality, maintainability and
-                            scalability of the front end as the user base grew
-                            by over 50,000.
+                            more info coming soon more info coming soon more
+                            info coming soon more more info coming soon more
+                            info coming soon more info coming soon more info
                         </p>
                     </li>
                     <li>
                         <p>
-                            Coordinated major refactors targeted towards app
-                            optimization and performance resulting in a smoother
-                            user experience and accomplished by eliminating
-                            redundant re-renders and API calls by over 50%.
+                            more info coming soon more info coming soon more
+                            info coming soon more more info coming soon more
+                            info coming soon more info coming soon more info
                         </p>
                     </li>
                     <li>
                         <p>
-                            Directed and executed an internal migration of 3
-                            individual repositories to a single monorepo,
-                            greatly reducing overhead for developing new
-                            features, fixing bugs, and managing dependencies.
+                            more info coming soon more info coming soon more
+                            info coming soon more more info coming soon more
+                            info coming soon more info coming soon more info
                         </p>
                     </li>
                     <li>
                         <p>
-                            Rebuilt the website with React and shared mobile app
-                            components allowing users to access a wide variety
-                            of app interactions entirely on the web, resulting
-                            in over 700,000 total site visits.
+                            more info coming soon more info coming soon more
+                            info coming soon more more info coming soon more
+                            info coming soon more info coming soon more info
                         </p>
                     </li>
                 </ul>
@@ -86,24 +79,23 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://bracs.co/'}
+                            href={'https://www.capitolbri.com'}
                         >
-                            <h4>www.bracs.co</h4>
+                            <h4>www.capitolbri.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Team Lead & Engineer</h3>
+                        <h3>Lead Engineer</h3>
                         <b>
-                            <p>Fall 2021 - Spring 2022</p>
+                            <p>Fall 2022 - Spring 2023  </p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    Supervised and developed the front end of bracs.co, a
-                    beautifully simple and effective bracket creation and
-                    management engine. Written in Typescript using React and
+                    Supervised and developed the front end of capitol bri,
+                    Written in Typescript using React and
                     deployed using AWS Elastic Beanstalk.
                 </p>
                 <br />
@@ -142,13 +134,13 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://kfxnyc.com/'}
+                            href={'more info coming soon'}
                         >
-                            <h4>www.kfxnyc.com</h4>
+                            <h4>more info coming soon.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Special Effects Technician</h3>
+                        <h3>more info soon</h3>
                         <b>
                             <p>Fall 2019, Summer 2021</p>
                         </b>
@@ -157,10 +149,9 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    Applied problem solving and technical skills to operate
-                    large equipment such as rain machines, fog machines, small
-                    explosives and general rigging with a professional crew of
-                    50+ people.
+                            more info coming soon more info coming soon more
+                            info coming soon more more info coming soon more
+                            info coming soon more info coming soon more info
                 </p>
                 <br />
                 <h3 style={styles.indent}>Screen Credits:</h3>
