@@ -151,4 +151,4 @@ const styles: StyleSheetCSS = {
     },
 };
 
-export default Projects;
+export default;
