@@ -28,7 +28,7 @@ const Home: React.FC<HomeProps> = (props) => {
                 />
                 <Link
                     containerStyle={styles.link}
-                    to="projects"
+                    to=""
                     text="PROJECTS"
                 />
                 <Link
