@@ -83,21 +83,21 @@ const Projects: React.FC<ProjectsProps> = (props) => {
                     iconStyle={styles.computerIcon}
                     title="Software"
                     subtitle="PROJECTS"
-                    route="software"
+                    route=""
                 />
                 <ProjectBox
                     icon={music}
                     iconStyle={styles.musicIcon}
                     title="Music"
                     subtitle="VENTURES"
-                    route="music"
+                    route=""
                 />
                 <ProjectBox
                     icon={art}
                     iconStyle={styles.artIcon}
                     title="Art"
                     subtitle="ENDEAVORS"
-                    route="art"
+                    route=""
                 />
             </div>
         </div>
@@ -151,4 +151,4 @@ const styles: StyleSheetCSS = {
     },
 };
 
-export default;
+export default Projects;
