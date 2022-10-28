@@ -17,7 +17,7 @@ const About: React.FC<AboutProps> = (props) => {
             <div className="text-block">
                 <p>
                     I'm a software engineer currently looking for full time opportunities! In July
-                    of 2022 I graduated as a full-stack web developer from Thinkful.
+                    of 2022 I graduated as a full-stack web developer from Thinkful, an online education company.
                 </p>
                 <br />
                 <p>
@@ -36,11 +36,11 @@ const About: React.FC<AboutProps> = (props) => {
                 <h3>About Me</h3>
                 <br />
                 <p>
-                    From a young age, I have had a curiosity about how things
-                    worked. This naturally led me to become absolutely obsessed
-                    with technology and I fell in love with tinkering things. In
-                    7th grade, I took my first HTML class at my
-                    local middle school, which was my first real exposure to
+                    From a young age, I have been curious about how things
+                    worked at a technical level. This naturally led me to become absolutely obsessed
+                    with technology and I fell in love with tinkering in tech. In
+                    7th grade, I took my first HTML class at my local
+                    middle school, which was my first real exposure to
                     programming. I was immediately hooked and I knew that I had to learn more.
                 </p>
                 <br />
@@ -55,30 +55,12 @@ const About: React.FC<AboutProps> = (props) => {
 
                 <p>
                     I started programming more seriously in college,
-                    initially intrested in cyper security, I began learning python syntax
-                    through Kali Linux. {' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://www.linkedin.com/in/scott-bass-189a7919b/"
-                    >
-                        Scott Bass
-                    </a>
-                    . We worked on many projects together, including chat bots,
-                    multiple game projects, apps, and more. One of these
-                    projects is viewable on my{' '}
-                    <Link to="/projects/software">Software Projects</Link> page.
+                    initially intrested in cyper security, I began learning the python syntax
+                    through Kali Linux in order to understand how some pentesting tools worked.
                 </p>
                 <br />
                 <p>
-                    In 2017, I got accepted into Rennselear Polytechnic
-                    Institute to study Computer Science. It was my first choice
-                    and I was absolutely ecstatic to be going to such a great
-                    university. At the end of my sophomore year, I got an
-                    internship working for the startup Hover, primarily focusing
-                    on frontend work. I continued to work at Hover on and off
-                    for about a year and a half, until the start of my senior
-                    year when I decided to focus on other opportunities.
+                   more info here
                 </p>
                 <br />
                 <br />
@@ -97,9 +79,9 @@ const About: React.FC<AboutProps> = (props) => {
                             Beyond software, I have a lot of hobbies that I
                             enjoy doing in my free time. The more tangible
                             hobbies I have are{' '}
-                            <Link to="/projects/music">Music Production</Link>{' '}
+                            <Link to="/projects/music">Video Content</Link>{' '}
                             and creating{' '}
-                            <Link to="/projects/art">Digital Art</Link>. You can
+                            <Link to="/projects/art">Digital Art and Animation</Link>. You can
                             read more about each of these on their respective
                             pages under my projects tab. Some other hobbies I
                             enjoy are working out, cooking, and (unsurprisingly)
@@ -107,17 +89,14 @@ const About: React.FC<AboutProps> = (props) => {
                         </p>
                         <br />
                         <p>
-                            In college, I was an active member in the fraternity
-                            Sigma Alpha Epsilon and held multiple positions in
-                            the chapter. I met a lot of amazing people through
-                            my fraternity and thoroughly enjoyed the community.
+                            more info here
                         </p>
                     </div>
                     <div style={styles.verticalImage}>
                         <img src={meNow} style={styles.image} alt="" />
                         <p>
                             <sub>
-                                <b>Figure 2:</b> Me, April 2022
+                                <b>Figure 2:</b> Me
                             </sub>
                         </p>
                     </div>
@@ -132,9 +111,9 @@ const About: React.FC<AboutProps> = (props) => {
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://twitter.com/henryheffernan"
+                        href="https://twitter.com/christian2hugo"
                     >
-                        @henryheffernan
+                        @christian2hugo
                     </a>{' '}
                     Good luck and have fun!
                 </p>
@@ -144,8 +123,8 @@ const About: React.FC<AboutProps> = (props) => {
                     them. You can reach me through the{' '}
                     <Link to="/contact">contact page</Link> or shoot me an email
                     at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:christianhbragado@gmail.com">
+                        christianhbragado@gmail.com
                     </a>
                 </p>
             </div>

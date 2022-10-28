@@ -4,7 +4,7 @@ import Wordle from '../wordle/Wordle';
 
 export interface HenordleAppProps extends WindowAppProps {}
 
-const HenordleApp: React.FC<HenordleAppProps> = (props) => {
+const Hugordle: React.FC<HenordleAppProps> = (props) => {
     return (
         <Window
             top={20}
@@ -25,4 +25,4 @@ const HenordleApp: React.FC<HenordleAppProps> = (props) => {
     );
 };
 
-export default HenordleApp;
+export default Hugordle;

@@ -13,7 +13,7 @@ const CREDITS = [
     {
         title: 'Modeling & Texturing',
         rows: [
-            ['Christian Hugo', 'Texturing, Composition, & UV'],
+            ['Christian Hugo', 'Creativley developed'],
             ['Mickael Boitte', 'Computer Model'],
             ['Sean Nicolas', 'Environment Models'],
         ],
@@ -21,7 +21,6 @@ const CREDITS = [
     {
         title: 'Sound Design',
         rows: [
-            ['Christian Hugo', 'Mixing, Composition, & Foley'],
             ['Sound Cassette', 'Office Ambience'],
             ['Windows 95 Startup Sound', 'Microsoft'],
         ],
@@ -31,6 +30,7 @@ const CREDITS = [
         rows: [
             ['Brianna Bryan'],
             ['Beau Bryan'],
+            ['Dad, Mom, & Family'],
         ],
     },
     {
