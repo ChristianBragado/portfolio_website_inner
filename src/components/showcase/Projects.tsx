@@ -25,7 +25,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
     const navigation = useNavigate();
 
     const handleClick = () => {
-        navigation(`//${route}`);
+        navigation(`/projects/${route}`);
     };
 
     const onMouseEnter = () => {
@@ -44,22 +44,6 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
         >
-            <div style={styles.projectLinkLeft}>
-                <img
-                    src={icon}
-                    style={Object.assign(
-                        {},
-                        styles.projectLinkImage,
-                        iconStyle
-                    )}
-                    alt=""
-                />
-                <div style={styles.projectText}>
-                    <h1 style={{ fontSize: 48 }}>{title}</h1>
-                    <h3>{subtitle}</h3>
-                </div>
-            </div>
-            <div style={styles.projectLinkRight}></div>
         </div>
     );
 };
