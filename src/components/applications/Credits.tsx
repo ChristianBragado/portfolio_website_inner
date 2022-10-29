@@ -31,6 +31,7 @@ const CREDITS = [
             ['Brianna Bryan'],
             ['Beau Bryan'],
             ['Dad, Mom, & Family'],
+            ['The buzzy boys']
         ],
     },
     {
@@ -38,6 +39,7 @@ const CREDITS = [
         rows: [
             ['Elon Musk'],
             ['Steve Jobs'],
+            ['The Legend of Zelda']
         ],
     },
 ];
