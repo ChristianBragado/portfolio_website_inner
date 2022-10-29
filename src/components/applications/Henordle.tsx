@@ -4,7 +4,7 @@ import Wordle from '../wordle/Wordle';
 
 export interface HenordleAppProps extends WindowAppProps {}
 
-const Hugordle: React.FC<HenordleAppProps> = (props) => {
+const Henordle: React.FC<HenordleAppProps> = (props) => {
     return (
         <Window
             top={20}
@@ -12,7 +12,7 @@ const Hugordle: React.FC<HenordleAppProps> = (props) => {
             width={600}
             height={860}
             windowBarIcon="windowGameIcon"
-            windowTitle="Henordle"
+            windowTitle="Hugordle"
             closeWindow={props.onClose}
             onInteract={props.onInteract}
             minimizeWindow={props.onMinimize}
@@ -25,4 +25,4 @@ const Hugordle: React.FC<HenordleAppProps> = (props) => {
     );
 };
 
-export default Hugordle;
+export default Henordle;
